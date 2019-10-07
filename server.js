@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const accountRoutes = require('./routes/accountsRoutes');
+const accountRoutes = require('./routes/accountRoutes');
 // Teach the server to read JSON
 server.use(express.json())
 
